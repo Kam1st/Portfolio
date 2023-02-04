@@ -15,7 +15,7 @@
 </p>
     <p style="color: blue;">They wish to have their own service to store their data and carry out these transactions. <br> This project was built
     using Java and Sprint Boot as well as Vue.js</p>
-  </div>
+  </div> 
 
   <div>
     <img src="@/assets/projects/um.png" width="1000" height="500"/>
