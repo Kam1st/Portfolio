@@ -1,5 +1,5 @@
 <template>
-  <particles-bg type="cobweb" :bg="true" />
+  <br>
   <nav>
     <a @click="redirectHomePage">Home</a>&nbsp;
     <a @click="redirectSkillsPage">Skills</a> &nbsp;
@@ -10,21 +10,14 @@
   </nav>
 
   <router-view/>
-
-  <br>
-  <br>
-  <footer style="color:#e0c56e; text-align: center; font-style: italic; padding : 1em; font-size : 1em;"> Copyright &copy; 2023. Created by Kamilah Hatteea. </footer>
-
-
+<div id="bg">
+  <footer> Copyright &copy; 2023. Created by Kamilah Hatteea. </footer>
+</div>
 </template>
 
 <script>
-import { ParticlesBg } from "particles-bg-vue";
 export default {
   name: 'App',
-  components: {
-    ParticlesBg
-  },
   methods: {
     redirectHomePage(){
       this.$router.push(`/`);
@@ -49,17 +42,58 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #d4af37;
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
+
+#bg, body{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+#bg {
+  background-color: black;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  z-index: 500;
+  background-color: #FAF9F6;
+  padding: 12px;
+}
+
+nav a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 nav a:hover {
-  color: #A38A00;
+  color:  #A38A00;
+}
+
+footer {
+  background-color: #FAF9F6;
+  color:#e0c56e;
+  text-align: center;
+  font-style: italic;
+  padding : 1.2em;
+  font-size : 1em;
 }
 
 </style>
