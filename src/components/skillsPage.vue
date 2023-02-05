@@ -21,24 +21,38 @@
     </div>
     </aos-vue>
   </div>
-
   <div>
 
 
     <p style="text-align: left; color: indigo">Technical Skills</p>
 
-    <ul style="text-align: left; color: indigo">
-    <li>	Ease with computer related programs (Such as Word, Excel, PowerPoint, MS Project, etc.)</li>
-    <li>	Experience with programming languages such as Java, JavaScript, C#, PHP, Python, Swift</li>
-    <li>	Used a variety of frameworks such as HTML, Spring Boot, Azure ASP.Net, SwiftUI</li>
-    <li>	High knowledge of Windows, some with Linux</li>
-    <li>	Mobile development using Android and familiar with MacOS</li>
-    <li>	Experience with Data Management using MySQL, ORACLE, and MongoDB</li>
-    <li>	Knowledge of development software such as Jira and Figma</li>
-    <li>	Experience with integration tool of Docker and control system of Git/GitHub</li>
-    </ul>
-
   </div>
+
+  <div class="row">
+    <div class="column">
+        <img src="@/assets/skills/micro.png" width="100" height="100" style="margin: 100px 750px 30px 50px;">
+        <img src="@/assets/skills/lang.png" width="100" height="100">
+      <pre>   Ease with computer related programs (Such as Word, Excel, PowerPoint, MS Project, etc.                            Experience with programming languages such as Java, JavaScript, C#, PHP, Python, Swift      </pre>
+      </div>
+    <br>
+    <br>
+    <div class="column">
+        <img src="@/assets/skills/frameworks.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
+        <img src="@/assets/skills/windows.png" width="90" height="90">
+      <pre>   Used a variety of frameworks such as HTML, Spring Boot, Azure ASP.Net, SwiftUI.                                                       High knowledge of Windows, some with Linux                   </pre>
+      </div>
+    <div class="column">
+      <img src="@/assets/skills/mob.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
+      <img src="@/assets/skills/data.png" width="90" height="90">
+      <pre>    Mobile development using Android and familiar with MacOS.                                                          Experience with Data Management using MySQL, ORACLE, and MongoDB   </pre>
+    </div>
+    <div class="column">
+      <img src="@/assets/skills/sodev.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
+      <img src="@/assets/skills/github.png" width="90" height="90">
+      <pre>        Knowledge of development software such as Jira and Figma.                                                    	Experience with integration tool of Docker and control system of Git/GitHub</pre>
+    </div>
+  </div>
+
 
 
 
@@ -46,7 +60,7 @@
 
 <script>
 export default {
-  name: "skillPage",
+  name: "skillPage"
 }
 </script>
 
