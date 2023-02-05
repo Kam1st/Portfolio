@@ -1,7 +1,7 @@
 <template>
 <br>
   <div class="row">
-    <aos-vue animation="fade">
+    <aos-vue animation="fade" :delay="200">
     <div class="column">
       <img src="@/assets/skills/agile.png" width="100" height="100">
       <img src="@/assets/skills/aut.jpg" width="100" height="100">
@@ -9,10 +9,9 @@
       <img src="@/assets/skills/comm.png" width="100" height="100">
       <pre>      Agile methodology/SCRUM                 Autonomous           Perfectly Bilingual: French and English     Good communication           </pre>
     </div>
-  </aos-vue>
     <br>
     <br>
-    <aos-vue animation="fade" :delay="400">
+    <br>
     <div class="column">
       <img src="@/assets/skills/ct.png" width="90" height="90">
       <img src="@/assets/skills/hw.svg" width="90" height="90">

@@ -1,5 +1,6 @@
 <template>
   <br>
+  <br>
   <aos-vue animation="fade-down">
   <div>
     <h2 style="color: #5F5E43">Universal Marketing Inventory System</h2>
@@ -18,13 +19,12 @@
   </div>
 
   <div>
-    <img src="@/assets/projects/um.png" width="1000" height="500"/>
+    <img src="@/assets/projects/um.png" width="800" height="500"/>
     <p style="color: #5F5E43;"> Check out the complete project at
       <a href="https://github.com/Kam1st/um_inventory_frontend" style="color: #5F5E43;">https://github.com/Kam1st/um_inventory_frontend </a> and <br>
        <a href="https://github.com/Kam1st/um_inventory" style="color: #5F5E43;">https://github.com/Kam1st/um_inventory </a>
     </p>
     <br>
-
   </div>
   </aos-vue>
 
@@ -38,13 +38,13 @@
       like parallax, assets, scripts and much more helped create the finished product.
     </p>
   <div>
-    <img src="@/assets/projects/game_level1.png" width="1000" height="500"/>
+    <img src="@/assets/projects/game_level1.png" width="800" height="500"/>
   </div>
   </aos-vue>
 
   <aos-vue animation="fade-left" :delay="50">
   <div>
-    <img src="@/assets/projects/game_ending.png" width="1000" height="500"/>
+    <img src="@/assets/projects/game_ending.png" width="800" height="500"/>
     <p style="color: #5F5E43;">Check out the complete project at <a href="https://github.com/Kam1st/adventure_coin" style="color: #5F5E43;">https://github.com/Kam1st/adventure_coin </a></p>
 
   </div>

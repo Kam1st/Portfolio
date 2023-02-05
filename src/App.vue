@@ -1,5 +1,7 @@
 <template>
   <br>
+  <br>
+  <br>
   <nav>
     <a @click="redirectHomePage">Home</a>&nbsp;
     <a @click="redirectSkillsPage">Skills</a> &nbsp;
@@ -102,8 +104,8 @@ nav {
 }
 
 nav a {
-  text-align: center;
-  padding: 14px 16px;
+  float: left;
+  padding: 0px 10px;
   text-decoration: none;
 }
 
@@ -119,5 +121,11 @@ footer {
   padding : 1.2em;
   font-size : 1em;
 }
+
+img {
+  max-width: 100%;
+  max-height: 90%;
+}
+
 
 </style>
