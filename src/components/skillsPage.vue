@@ -1,20 +1,17 @@
 <template>
-  <br>
-  <br>
-  <br>
-  <br>
   <div class="row">
+    <aos-vue animation="fade">
     <div class="column">
       <img src="@/assets/skills/agile.png" width="100" height="100">
       <img src="@/assets/skills/aut.jpg" width="100" height="100">
       <img src="@/assets/skills/bi.png" width="100" height="100">
       <img src="@/assets/skills/comm.png" width="100" height="100">
-      <pre>      Agile methodology/SCRUM                 Autonomous          Perfectly Bilingual: French and English     Good communication           </pre>
+      <pre>      Agile methodology/SCRUM                 Autonomous           Perfectly Bilingual: French and English     Good communication           </pre>
     </div>
+  </aos-vue>
     <br>
     <br>
-    <br>
-    <br>
+    <aos-vue animation="fade" :delay="400">
     <div class="column">
       <img src="@/assets/skills/ct.png" width="90" height="90">
       <img src="@/assets/skills/hw.svg" width="90" height="90">
@@ -22,7 +19,9 @@
       <img src="@/assets/skills/tp.svg" width="90" height="90">
       <pre>       Critical Thinking                  Hardworking                 Problem-Solving Ability             Team Player                </pre>
     </div>
+    </aos-vue>
   </div>
+
   <div>
 
 
@@ -53,7 +52,7 @@ export default {
 
 <style scoped>
 img {
-  margin: 0px 85px 30px 50px;
+  margin: 90px 85px 30px 50px;
 }
 
 
