@@ -1,5 +1,20 @@
 <template>
   <br>
+  <br>
+  <div class="row">
+    <div class="column">
+      <img src="@/assets/skills/agile.png" width="90" height="90">
+      <img src="@/assets/skills/aut.jpg" width="90" height="90">
+      <img src="@/assets/skills/bi.png" width="90" height="90">
+      <img src="@/assets/skills/comm.png" width="90" height="90">
+    </div>
+    <div class="column">
+      <img src="@/assets/skills/ct.png" width="90" height="90">
+      <img src="@/assets/skills/hw.svg" width="90" height="90">
+      <img src="@/assets/skills/ps.png" width="90" height="90">
+      <img src="@/assets/skills/tp.svg" width="90" height="90">
+    </div>
+  </div>
   <div>
 
     <p style="text-align: left; color: indigo">Soft Skills</p>
@@ -30,6 +45,8 @@
 
   </div>
 
+
+
 </template>
 
 <script>
@@ -39,5 +56,9 @@ export default {
 </script>
 
 <style scoped>
+img {
+  margin: 0px 100px 100px 100px;
+}
+
 
 </style>
