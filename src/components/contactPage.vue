@@ -16,7 +16,7 @@
       <img src="@/assets/contact/linkedin.png" width="105" height="60"/>
     </a>
   </div>
-
+ 
 
 </template>
   
