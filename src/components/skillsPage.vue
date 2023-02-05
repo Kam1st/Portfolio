@@ -1,4 +1,5 @@
 <template>
+<br>
   <div class="row">
     <aos-vue animation="fade">
     <div class="column">
@@ -20,27 +21,25 @@
       <pre>       Critical Thinking                  Hardworking                 Problem-Solving Ability             Team Player                </pre>
     </div>
     </aos-vue>
-  </div>
-  <div>
 
 
-    <p style="text-align: left; color: indigo">Technical Skills</p>
-
-  </div>
 
   <div class="row">
+    <aos-vue animation="fade">
     <div class="column">
         <img src="@/assets/skills/micro.png" width="100" height="100" style="margin: 100px 750px 30px 50px;">
         <img src="@/assets/skills/lang.png" width="100" height="100">
       <pre>   Ease with computer related programs (Such as Word, Excel, PowerPoint, MS Project, etc.                            Experience with programming languages such as Java, JavaScript, C#, PHP, Python, Swift      </pre>
       </div>
-    <br>
-    <br>
     <div class="column">
         <img src="@/assets/skills/frameworks.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
         <img src="@/assets/skills/windows.png" width="90" height="90">
       <pre>   Used a variety of frameworks such as HTML, Spring Boot, Azure ASP.Net, SwiftUI.                                                       High knowledge of Windows, some with Linux                   </pre>
       </div>
+    </aos-vue>
+
+
+    <aos-vue animation="fade">
     <div class="column">
       <img src="@/assets/skills/mob.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
       <img src="@/assets/skills/data.png" width="90" height="90">
@@ -48,13 +47,12 @@
     </div>
     <div class="column">
       <img src="@/assets/skills/sodev.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
-      <img src="@/assets/skills/github.png" width="90" height="90">
+      <img src="@/assets/skills/github.png" width="120" height="120">
       <pre>        Knowledge of development software such as Jira and Figma.                                                    	Experience with integration tool of Docker and control system of Git/GitHub</pre>
     </div>
+    </aos-vue>
   </div>
-
-
-
+  </div>
 
 </template>
 
