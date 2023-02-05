@@ -1,34 +1,30 @@
 <template>
   <br>
   <br>
+  <br>
+  <br>
   <div class="row">
     <div class="column">
-      <img src="@/assets/skills/agile.png" width="90" height="90">
-      <img src="@/assets/skills/aut.jpg" width="90" height="90">
-      <img src="@/assets/skills/bi.png" width="90" height="90">
-      <img src="@/assets/skills/comm.png" width="90" height="90">
+      <img src="@/assets/skills/agile.png" width="100" height="100">
+      <img src="@/assets/skills/aut.jpg" width="100" height="100">
+      <img src="@/assets/skills/bi.png" width="100" height="100">
+      <img src="@/assets/skills/comm.png" width="100" height="100">
+      <pre>      Agile methodology/SCRUM                 Autonomous          Perfectly Bilingual: French and English     Good communication           </pre>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="column">
       <img src="@/assets/skills/ct.png" width="90" height="90">
       <img src="@/assets/skills/hw.svg" width="90" height="90">
       <img src="@/assets/skills/ps.png" width="90" height="90">
       <img src="@/assets/skills/tp.svg" width="90" height="90">
+      <pre>       Critical Thinking                  Hardworking                 Problem-Solving Ability             Team Player                </pre>
     </div>
   </div>
   <div>
 
-    <p style="text-align: left; color: indigo">Soft Skills</p>
-
-    <ul style="text-align: left; color: indigo">
-    <li>	Perfectly Bilingual: French and English</li>
-    <li>	Critical Thinking</li>
-    <li>	Problem-Solving Ability</li>
-    <li>	Team Player</li>
-    <li>	Good communication</li>
-    <li>	Hardworking</li>
-    <li>	Autonomous</li>
-    <li>	Agile methodology/SCRUM</li>
-    </ul>
 
     <p style="text-align: left; color: indigo">Technical Skills</p>
 
@@ -57,7 +53,7 @@ export default {
 
 <style scoped>
 img {
-  margin: 0px 100px 100px 100px;
+  margin: 0px 85px 30px 50px;
 }
 
 
