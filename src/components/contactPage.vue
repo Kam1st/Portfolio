@@ -1,22 +1,25 @@
 <template>
+  <br>
   <div>
-    <h2>Email</h2>
-    <a href="mailto:kam.hatteea@hotmail.com">kam.hatteea@hotmail.com</a>
-
-    <br>
-
-    <h2>GitHub</h2>
-    <a href="https://github.com/Kam1st">https://github.com/Kam1st</a>
-
-    <br>
-
-    <h2>LinkedIn</h2>
-    <a href="https://www.linkedin.com/in/kamilah-hatteea/">https://www.linkedin.com/in/kamilah-hatteea/</a>
-
+    <a href="https://linktr.ee/kamilah27">
+      <img src="@/assets/contact/linktree.jpg" width="110" height="80"/>
+    </a>
+  </div>
+  <div>
+    <a href="https://github.com/Kam1st">
+      <img src="@/assets/contact/github.png" width="70" height="70"/>
+    </a>
+  </div>
+  <br>
+  <div>
+    <a href="https://www.linkedin.com/in/kamilah-hatteea/">
+      <img src="@/assets/contact/linkedin.png" width="105" height="60"/>
+    </a>
   </div>
 
-</template>
 
+</template>
+  
 <script>
 export default {
   name: "contactPage",

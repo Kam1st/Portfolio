@@ -7,11 +7,27 @@
     <a @click="redirectProjectsPage">Projects</a> &nbsp;
     <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;
     <a @click="redirectContactPage">Contact</a> &nbsp;
-  </nav>
 
+
+    <div style="float: right">
+      <a href="https://linktr.ee/kamilah27">
+        <img src="@/assets/contact/l.svg" width="25" height="25"/>
+      </a>
+    </div>
+    <div style="float: right">
+      <a href="https://github.com/Kam1st">
+        <img src="@/assets/contact/g.png" width="25" height="25"/>
+      </a>
+    </div>
+    <div style="float: right">
+      <a href="https://www.linkedin.com/in/kamilah-hatteea/">
+        <img src="@/assets/contact/lin.png" width="25" height="25"/>
+      </a>
+    </div>
+  </nav>
   <router-view/>
 <div id="bg">
-  <footer> Copyright &copy; 2023. Created by Kamilah Hatteea. </footer>
+  <footer> Copyright &copy; 2023. Created by Kamilah Hatteea.</footer>
 </div>
 </template>
 
