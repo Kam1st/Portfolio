@@ -1,4 +1,5 @@
 <template>
+  <br>
   <div>
 
     <p style="text-align: left; color: indigo">Soft Skills</p>

@@ -6,8 +6,7 @@
     <a @click="redirectEducationPage">Education</a> &nbsp;
     <a @click="redirectProjectsPage">Projects</a> &nbsp;
     <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;
-    <a @click="redirectContactPage">Contact</a> &nbsp;
-
+<!--    <a @click="redirectContactPage">Contact</a> &nbsp;-->
 
     <div style="float: right">
       <a href="https://linktr.ee/kamilah27">
@@ -24,10 +23,19 @@
         <img src="@/assets/contact/lin.png" width="25" height="25"/>
       </a>
     </div>
+    <div style="float: right">
+      <a href="mailto:kam.hatteea@hotmail.com">
+        <img src="@/assets/contact/e.png" width="25" height="25"/>
+      </a>
+    </div>
   </nav>
+
+
   <router-view/>
+
+
 <div id="bg">
-  <footer> Copyright &copy; 2023. Created by Kamilah Hatteea.</footer>
+  <footer> Copyright &copy; 2023. Kamilah Hatteea.</footer>
 </div>
 </template>
 
