@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: '/kamilah-portfolio/',
-  outputDir: './src',
+  outputDir: './dist',
   assetsDir: "./src",
   indexPath: "./public/index.html"
 }
