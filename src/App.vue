@@ -46,7 +46,7 @@ export default {
   name: 'App',
   methods: {
     redirectHomePage(){
-      this.$router.push(`../public/index.html`);
+      this.$router.push(`/`);
     },
     redirectSkillsPage(){
       this.$router.push(`/skills`);
