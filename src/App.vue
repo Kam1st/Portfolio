@@ -6,8 +6,8 @@
     <a @click="redirectHomePage">Home</a>&nbsp;
     <a @click="redirectSkillsPage">Skills</a> &nbsp;
     <a @click="redirectEducationPage">Education</a> &nbsp;
-    <a @click="redirectProjectsPage">Projects</a> &nbsp;
-    <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;
+<!--    <a @click="redirectProjectsPage">Projects</a> &nbsp;-->
+<!--    <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;-->
 <!--    <a @click="redirectContactPage">Contact</a> &nbsp;-->
 
     <div style="float: right">
