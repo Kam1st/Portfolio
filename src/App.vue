@@ -10,11 +10,11 @@
 <!--    <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;-->
 <!--    <a @click="redirectContactPage">Contact</a> &nbsp;-->
 
-    <div style="float: right">
-      <a href="https://linktr.ee/kamilah27">
-        <img src="@/assets/contact/l.svg" width="25" height="25"/>
-      </a>
-    </div>
+<!--    <div style="float: right">-->
+<!--      <a href="https://linktr.ee/kamilah27">-->
+<!--        <img src="@/assets/contact/l.svg" width="25" height="25"/>-->
+<!--      </a>-->
+<!--    </div>-->
     <div style="float: right">
       <a href="https://github.com/Kam1st">
         <img src="@/assets/contact/g.png" width="25" height="25"/>
