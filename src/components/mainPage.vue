@@ -32,23 +32,23 @@
     <br>
     <div class="row">
       <h1>Skills</h1>
-      <aos-vue animation="fade" :delay="200">
+      <aos-vue animation="fade">
         <div class="column">
           <img src="@/assets/skills/agile.png" width="100" height="100" style="padding-right: 130px">
           <img src="@/assets/skills/aut.jpg" width="100" height="100" style="padding-right: 170px; padding-left: 20px">
           <img src="@/assets/skills/bi.png" width="100" height="100" style="padding-left: 10px; padding-right: 40px" >
           <img src="@/assets/skills/comm.png" width="100" height="100" style="padding-left: 100px">
-          <pre>      Agile methodology/SCRUM                 Autonomous           Perfectly Bilingual: French and English     Good communication           </pre>
+          <pre style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 17px">      Agile methodology/SCRUM                 Autonomous           Perfectly Bilingual: French and English     Good communication           </pre>
         </div>
         <br>
         <br>
         <br>
         <div class="column">
-          <img src="@/assets/skills/ct.png" width="90" height="90"  style="padding-right: 130px">
-          <img src="@/assets/skills/hw.svg" width="90" height="90" style="padding-right: 170px; padding-left: 10px">
-          <img src="@/assets/skills/ps.png" width="90" height="90" style="padding-left: 10px; padding-right: 70px" >
-          <img src="@/assets/skills/tp.svg" width="90" height="90" style="padding-left: 40px; padding-right: 80px">
-          <pre>       Critical Thinking                  Hardworking                 Problem-Solving Ability             Team Player                </pre>
+          <img src="@/assets/skills/ct.png" width="90" height="90"  style="padding-right: 130px; padding-left: 100px">
+          <img src="@/assets/skills/hw.svg" width="90" height="90" style="padding-right: 110px; padding-left: 10px">
+          <img src="@/assets/skills/ps.png" width="90" height="90" style="padding-left: 0px; padding-right: 90px" >
+          <img src="@/assets/skills/tp.svg" width="90" height="90" style="padding-left: 20px; padding-right: 150px">
+          <pre  style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 17px">       Critical Thinking                  Hardworking                 Problem-Solving Ability             Team Player                </pre>
         </div>
       </aos-vue>
 
@@ -59,12 +59,12 @@
           <div class="column">
             <img src="@/assets/skills/micro.png" width="100" height="100" style="margin: 100px 750px 30px 50px;">
             <img src="@/assets/skills/lang.png" width="100" height="100">
-            <pre>   Ease with computer related programs (Such as Word, Excel, PowerPoint, MS Project, etc.                            Experience with programming languages such as Java, JavaScript, C#, PHP, Python, Swift      </pre>
+            <pre style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 17px">   Ease with computer related programs (Such as Word, Excel, PowerPoint, MS Project, etc.                            Experience with programming languages such as Java, JavaScript, C#, PHP, Python, Swift      </pre>
           </div>
           <div class="column">
             <img src="@/assets/skills/frameworks.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
             <img src="@/assets/skills/windows.png" width="90" height="90">
-            <pre>   Used a variety of frameworks such as HTML, Spring Boot, Azure ASP.Net, SwiftUI.                                                       High knowledge of Windows, some with Linux                   </pre>
+            <pre style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 17px">   Used a variety of frameworks such as HTML, Spring Boot, Azure ASP.Net, SwiftUI.                                                       High knowledge of Windows, some with Linux                   </pre>
           </div>
         </aos-vue>
 
@@ -73,12 +73,12 @@
           <div class="column">
             <img src="@/assets/skills/mob.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
             <img src="@/assets/skills/data.png" width="90" height="90">
-            <pre>    Mobile development using Android and familiar with MacOS.                                                          Experience with Data Management using MySQL, ORACLE, and MongoDB   </pre>
+            <pre style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 17px">    Mobile development using Android and familiar with MacOS.                                                          Experience with Data Management using MySQL, ORACLE, and MongoDB   </pre>
           </div>
           <div class="column">
             <img src="@/assets/skills/sodev.png" width="90" height="90" style="margin: 100px 750px 30px 50px;">
             <img src="@/assets/skills/github.png" width="120" height="120">
-            <pre>        Knowledge of development software such as Jira and Figma.                                                    	Experience with integration tool of Docker and control system of Git/GitHub</pre>
+            <pre style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 17px">        Knowledge of development software such as Jira and Figma.                                                    	Experience with integration tool of Docker and control system of Git/GitHub</pre>
           </div>
         </aos-vue>
       </div>
@@ -139,7 +139,7 @@
 
     <br>
 
-    <aos-vue animation="fade-right" :delay="50">
+    <aos-vue animation="fade-right">
       <h2>Adventure Coin</h2>
         <div class="row1">
           <div class="column">
