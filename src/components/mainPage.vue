@@ -93,7 +93,7 @@
       <div>
         <img src="@/assets/edu/champ.jpg" width="800" height="450" style="border-radius: 5%;"/>
       </div>
-      <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px">
+      <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px;">
         <h3>(2020-2023)</h3>
         <p>At Champlain College, I am on my way to complete a 3-year Computer Science technical DEC. <br>
           This program taught me a lot about the world of computers and software programming <br> (and is the reason I can code this
@@ -141,25 +141,25 @@
 
     <aos-vue animation="fade-right" :delay="50">
       <h2>Adventure Coin</h2>
-      <div>
+        <div class="row1">
+          <div class="column">
         <img src="@/assets/projects/game_level1.png" width="800" height="500" style="border-radius: 5%;"/>
-      </div>
-    </aos-vue>
-
-    <aos-vue animation="fade-left" :delay="50">
-      <div>
+        </div>
+          <div class="column">
         <img src="@/assets/projects/game_ending.png" width="800" height="500" style="border-radius: 5%;"/>
-        <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px">
+          </div>
+        </div>
+        <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px; padding-top: 5px; padding-bottom: 5px">
           <p>Adventure Coin is a 2D platformer made with the Unity plateform and coded in C#. <br> This project was made for my
-            Game Development class with Unity and the goal was to use everything learnt in class in a final game. <br> Things
-            like parallax, assets, scripts and much more helped create the finished product.
+            Game Development class with Unity and the goal was to use <br> everything learnt in class in a final game. Things
+            like parallax, assets, scripts <br> and much more helped create the finished product.
           </p>
         </div>
         <br>
         <p>Check out the complete project at <a href="https://github.com/Kam1st/adventure_coin">https://github.com/Kam1st/adventure_coin </a></p>
-<br>
-      </div>
+        <br>
     </aos-vue>
+
     </div>
     </div>
 
@@ -169,17 +169,28 @@
 </template>
 
 <script>
-// import pdf from 'pdfvuer'
 import { ParticlesBg } from "particles-bg-vue";
 export default {
   name: 'mainPage',
   components: {
     ParticlesBg,
-    // pdf
   },
 };
 </script>
 
 <style>
+
+.row1 {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 6px;
+}
+
+img {
+  box-shadow: 2px 2px 8px white, 1px 1px 6px white;
+}
 
 </style>
