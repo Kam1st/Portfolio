@@ -3,9 +3,9 @@
   <br>
   <br>
   <nav>
-    <a @click="redirectHomePage">Home</a>&nbsp;
-    <a @click="redirectSkillsPage">Skills</a> &nbsp;
-    <a @click="redirectEducationPage">Education</a> &nbsp;
+<!--    <a @click="redirectHomePage">Home</a>&nbsp;-->
+<!--    <a @click="redirectSkillsPage">Skills</a> &nbsp;-->
+<!--    <a @click="redirectEducationPage">Education</a> &nbsp;-->
 <!--    <a @click="redirectProjectsPage">Projects</a> &nbsp;-->
 <!--    <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;-->
 <!--    <a @click="redirectContactPage">Contact</a> &nbsp;-->
@@ -15,7 +15,7 @@
 <!--        <img src="@/assets/contact/l.svg" width="25" height="25"/>-->
 <!--      </a>-->
 <!--    </div>-->
-    <div style="float: right">
+    <div style="float: right; margin-right: 690px">
       <a href="https://github.com/Kam1st">
         <img src="@/assets/contact/g.png" width="25" height="25"/>
       </a>
@@ -28,6 +28,11 @@
     <div style="float: right">
       <a href="mailto:kam.hatteea@hotmail.com">
         <img src="@/assets/contact/e.png" width="25" height="25"/>
+      </a>
+    </div>
+    <div style="float: right">
+      <a href=" https://docs.google.com/document/d/1qJ5o1m2DlN1reJYWk5grOpVZvzUyXkJ_/edit?usp=sharing&ouid=112658307649551179071&rtpof=true&sd=true">
+        CV
       </a>
     </div>
   </nav>
@@ -94,7 +99,6 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 20px;
@@ -107,9 +111,19 @@ nav a {
   float: left;
   padding: 0px 10px;
   text-decoration: none;
+  color: #d4af37;
 }
 
 nav a:hover {
+  color:  #A38A00;
+}
+
+a {
+  color:  #A38A00;
+}
+
+
+a:visited {
   color:  #A38A00;
 }
 

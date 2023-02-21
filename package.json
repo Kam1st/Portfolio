@@ -14,7 +14,9 @@
     "bootstrap": "^5.2.3",
     "core-js": "^3.8.3",
     "particles-bg-vue": "^1.3.5",
+    "pdfvuer": "^2.0.1",
     "vue": "^3.2.13",
+    "vue-pdf": "^4.3.0",
     "vue-responsive-image": "^2.0.0",
     "vue-router": "^4.1.6",
     "vue-social-sharing": "^4.0.0-alpha4"
