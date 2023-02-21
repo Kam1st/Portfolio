@@ -31,7 +31,7 @@
     <br>
     <br>
     <div class="row">
-      <h2>Skills</h2>
+      <h1>Skills</h1>
       <aos-vue animation="fade" :delay="200">
         <div class="column">
           <img src="@/assets/skills/agile.png" width="100" height="100" style="padding-right: 130px">
@@ -86,17 +86,20 @@
 
     <div style="background-color: black">
       <br>
-<h2>Education And Projects</h2>
+<h1>Education And Projects</h1>
       <br>
     <aos-vue animation="fade" data-aos-duration="600">
       <h2 >Champlain College Saint-Lambert</h2>
-      <h3>(2020-2023)</h3>
-      <p>At Champlain College, I am on my way to complete a 3-year Computer Science technical DEC. <br>
-        This program taught me a lot about the world of computers and software programming (and is the reason I can code this
-        wonderful website all by myself:)).
-      </p>
       <div>
-        <img src="@/assets/edu/champ.jpg" width="800" height="400"/>
+        <img src="@/assets/edu/champ.jpg" width="800" height="450" style="border-radius: 5%;"/>
+      </div>
+      <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px">
+        <h3>(2020-2023)</h3>
+        <p>At Champlain College, I am on my way to complete a 3-year Computer Science technical DEC. <br>
+          This program taught me a lot about the world of computers and software programming <br> (and is the reason I can code this
+          wonderful website all by myself:)).
+        </p>
+          <a href="https://www.champlainsaintlambert.ca/">Visit the college's site</a>
       </div>
     </aos-vue>
 
@@ -106,46 +109,53 @@
       <div>
         <h2>Universal Marketing Inventory System</h2>
         <br>
-        <p>  Universal Marketing Co. Ltd (UMCL) is a wholesale supplier for plumbing equipment to  retail  businesses  and  professionals.
-          <br>Currently,  the  company  uses  an  external Business Management service to store and retrieve data for all transactions,
-          called MYOB (Mind Your Own Business). Transactions include: <br>
-
-          <br>Placing orders
-          <br>Restocking inventory
-          <br>Producing invoices
-          Tracking client activity.
-        </p>
-        <p>They wish to have their own service to store their data and carry out these transactions. <br> This project was built
-          using Java and Sprint Boot as well as Vue.js</p>
       </div>
 
       <div>
-        <img src="@/assets/projects/um.png" width="800" height="500"/>
+        <img src="@/assets/projects/um.png" width="800" height="500" style="border-radius: 5%;"/>
+        <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px">
+          <p>  Universal Marketing Co. Ltd (UMCL) is a wholesale supplier for plumbing equipment to  retail  businesses  and  professionals.
+            <br>Currently,  the  company  uses  an  external Business Management service to store and retrieve data for all transactions,
+            called MYOB (Mind Your Own Business). Transactions include: <br>
+
+            <br>Placing orders
+            <br>Restocking inventory
+            <br>Producing invoices
+            Tracking client activity.
+          </p>
+          <p>They wish to have their own service to store their data and carry out these transactions. <br> This project was built
+            using Java and Sprint Boot as well as Vue.js</p>
+        </div>
+        <br>
         <p> Check out the complete project at
           <a href="https://github.com/Kam1st/um_inventory_frontend">https://github.com/Kam1st/um_inventory_frontend </a> and <br>
           <a href="https://github.com/Kam1st/um_inventory">https://github.com/Kam1st/um_inventory </a>
         </p>
         <br>
       </div>
+
+
     </aos-vue>
 
     <br>
 
     <aos-vue animation="fade-right" :delay="50">
       <h2>Adventure Coin</h2>
-
-      <p>Adventure Coin is a 2D platformer made with the Unity plateform and coded in C#. <br> This project was made for my
-        Game Development class with Unity and the goal was to use everything learnt in class in a final game. <br> Things
-        like parallax, assets, scripts and much more helped create the finished product.
-      </p>
       <div>
-        <img src="@/assets/projects/game_level1.png" width="800" height="500"/>
+        <img src="@/assets/projects/game_level1.png" width="800" height="500" style="border-radius: 5%;"/>
       </div>
     </aos-vue>
 
     <aos-vue animation="fade-left" :delay="50">
       <div>
-        <img src="@/assets/projects/game_ending.png" width="800" height="500"/>
+        <img src="@/assets/projects/game_ending.png" width="800" height="500" style="border-radius: 5%;"/>
+        <div style="background-color: #383630; margin-right: 350px; margin-left: 350px; border-radius: 3%; margin-top: 0px">
+          <p>Adventure Coin is a 2D platformer made with the Unity plateform and coded in C#. <br> This project was made for my
+            Game Development class with Unity and the goal was to use everything learnt in class in a final game. <br> Things
+            like parallax, assets, scripts and much more helped create the finished product.
+          </p>
+        </div>
+        <br>
         <p>Check out the complete project at <a href="https://github.com/Kam1st/adventure_coin">https://github.com/Kam1st/adventure_coin </a></p>
 <br>
       </div>
