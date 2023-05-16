@@ -177,15 +177,45 @@
         </div>
     </aos-vue>
 
+      <div style="background-color: white">
+        <aos-vue animation="fade">
+          <br>
+          <br>
+          <h1 style="text-decoration: underline;">Work Experience</h1>
+          <br>
+          <img src="@/assets/nexone.png" width="350" height="150">
+          <h3>NexOne - Intern as a Junior Full-Stack Developer (February - May 2023) </h3>
+          <p style="font-size: 20px">
+            NexOne is a real estate proptech who offers Software as a Service (SAAS).
+            They provide 3 distinct platforms that help real estate agents and brokerages manage the process
+            of closing deals and ease their everyday actions.<br><br> The solutions provide functionalities such as building
+            personalized documents, creating signing sessions, overviewing transactions, providing standardized documents
+            across provincial associations, accessing listings throughout the country and much more. <br><br>The 3 products being
+            developed are NOO (NexOne Office), NOL (NexOne Legacy), and NOA (NexOne Agent), which is the one I mainly worked on.
+            <br><br>  <a href="https://www.nexone.ca/"> More About NexOne </a>
+          </p>
+          <br>
+          <br>
+          <img src="@/assets/chsld.jpg" width="400" height="250">
+          <h3> Maintenance, Kitchen, Volunteering (2015-2021) </h3>
+          <p style="font-size: 20px">
+            Oversaw the cleaning of the rooms for the residents and anything building related.<br>
+            Helped in organizing events that took place in the CHSLD. <br><br>
+            Sadly the place closed down in 2022.... Forever in my heart
+          </p>
+          <br>
+        </aos-vue>
+      </div>
+
     </div>
     </div>
-    <div>
+    <div style="background-color: black;">
       <aos-vue animation="fade">
         <br>
         <br>
         <h1 style="text-decoration: underline;">Clubs and Student Life</h1>
         <br>
-        <img src="@/assets/cw.png" width="300" height="300">
+        <img src="@/assets/cw.png" width="300" height="300" style="box-shadow: 2px 2px 2px #d4af37">
         <h3> MSA </h3>
         <p style="font-size: 20px">
           I was the Vice-President of Champlain's College very own MSA for 2 years. We helped raise funds for different organizations. <br>
@@ -194,7 +224,7 @@
         </p>
         <br>
         <br>
-        <img src="@/assets/lead.png" width="400" height="250">
+        <img src="@/assets/lead.png" width="400" height="250" style="box-shadow: 2px 2px 2px #d4af37">
         <h3> FLIP and volunteering</h3>
         <p style="font-size: 20px">
           I was also part of FLIP which is the leadership association at Champlain College to help integrate
@@ -202,38 +232,11 @@
           I also often voluteered for the college itself such as being a guid on the Open Houses at every start of
           the semester.
         </p>
+        <br>
       </aos-vue>
     </div>
 
-    <div style="background-color: black;">
-      <aos-vue animation="fade">
-        <br>
-        <br>
-        <h1 style="text-decoration: underline;">Work Experience</h1>
-        <br>
-        <img src="@/assets/nexone.png" width="350" height="150">
-        <h3>NexOne - Intern as a Junior Full-Stack Developer (February - May 2023) </h3>
-        <p style="font-size: 20px">
-          NexOne is a real estate proptech who offers Software as a Service (SAAS).
-          They provide 3 distinct platforms that help real estate agents and brokerages manage the process
-          of closing deals and ease their everyday actions.<br><br> The solutions provide functionalities such as building
-          personalized documents, creating signing sessions, overviewing transactions, providing standardized documents
-          across provincial associations, accessing listings throughout the country and much more. <br><br>The 3 products being
-          developed are NOO (NexOne Office), NOL (NexOne Legacy), and NOA (NexOne Agent), which is the one I mainly worked on.
-          <br><br>  <a href="https://www.nexone.ca/"> More About NexOne </a>
-        </p>
-        <br>
-        <br>
-        <img src="@/assets/chsld.jpg" width="400" height="250">
-        <h3> Maintenance, Kitchen, Volunteering (2015-2021) </h3>
-        <p style="font-size: 20px">
-          Oversaw the cleaning of the rooms for the residents and anything building related.<br>
-          Helped in organizing events that took place in the CHSLD. <br><br>
-          Sadly the place closed down in 2022.... Forever in my heart
-        </p>
-        <br>
-      </aos-vue>
-    </div>
+
 
   </div>
 
