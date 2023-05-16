@@ -196,6 +196,7 @@
           personalized documents, creating signing sessions, overviewing transactions, providing standardized documents
           across provincial associations, accessing listings throughout the country and much more. <br><br>The 3 products being
           developed are NOO (NexOne Office), NOL (NexOne Legacy), and NOA (NexOne Agent), which is the one I mainly worked on.
+          <br><br>  <a href="https://www.nexone.ca/"> More About NexOne </a>
         </p>
         <br>
         <br>
@@ -203,7 +204,8 @@
         <h3> Maintenance, Kitchen, Volunteering (2015-2021) </h3>
         <p style="font-size: 20px">
           Oversaw the cleaning of the rooms for the residents and anything building related.<br>
-          Helped in organizing events that took place in the CHSLD.
+          Helped in organizing events that took place in the CHSLD. <br><br>
+          Sadly the place closed down in 2022.... Forever in my heart
         </p>
       </aos-vue>
     </div>
