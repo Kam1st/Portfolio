@@ -6,7 +6,7 @@
     <h1>Kamilah Hatteea</h1>
     <br>
     <aos-vue animation="fade">
-    <img src="@/assets/Kam.jpg" width="300" height="400"/>
+    <img src="@/assets/Kam.jpg" width="300" height="400" style  ="border: 5px solid #d4af37;"/>
     </aos-vue>
     <br>
     <br>
