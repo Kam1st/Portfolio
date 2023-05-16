@@ -181,6 +181,33 @@
     </div>
 
 
+    <div>
+      <aos-vue animation="fade">
+        <br>
+        <br>
+        <h1 style="text-decoration: underline;">Work Experience</h1>
+        <br>
+        <img src="@/assets/nexone.png" width="350" height="150">
+        <h3>NexOne - Intern as a Junior Full-Stack Developer (February - May 2023) </h3>
+        <p style="font-size: 20px">
+          NexOne is a real estate proptech who offers Software as a Service (SAAS).
+          They provide 3 distinct platforms that help real estate agents and brokerages manage the process
+          of closing deals and ease their everyday actions.<br><br> The solutions provide functionalities such as building
+          personalized documents, creating signing sessions, overviewing transactions, providing standardized documents
+          across provincial associations, accessing listings throughout the country and much more. <br><br>The 3 products being
+          developed are NOO (NexOne Office), NOL (NexOne Legacy), and NOA (NexOne Agent), which is the one I mainly worked on.
+        </p>
+        <br>
+        <br>
+        <img src="@/assets/chsld.jpg" width="400" height="250">
+        <h3> Maintenance, Kitchen, Volunteering (2015-2021) </h3>
+        <p style="font-size: 20px">
+          Oversaw the cleaning of the rooms for the residents and anything building related.<br>
+          Helped in organizing events that took place in the CHSLD.
+        </p>
+      </aos-vue>
+    </div>
+
   </div>
 
 </template>
