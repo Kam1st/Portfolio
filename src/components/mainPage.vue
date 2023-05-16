@@ -1,6 +1,7 @@
 <template>
-  <particles-bg type="circle" color="#000000" :bg="true"/>
+  <particles-bg type="cobweb" color="#dedede" :bg="true"/>
   <div>
+    <br>
     <br>
     <h1>Kamilah Hatteea</h1>
     <br>

@@ -1,20 +1,5 @@
 <template>
-  <br>
-  <br>
-  <br>
   <nav>
-<!--    <a @click="redirectHomePage">Home</a>&nbsp;-->
-<!--    <a @click="redirectSkillsPage">Skills</a> &nbsp;-->
-<!--    <a @click="redirectEducationPage">Education</a> &nbsp;-->
-<!--    <a @click="redirectProjectsPage">Projects</a> &nbsp;-->
-<!--    <a @click="redirectExtraPage">Extracurriculars</a> &nbsp;-->
-<!--    <a @click="redirectContactPage">Contact</a> &nbsp;-->
-
-<!--    <div style="float: right">-->
-<!--      <a href="https://linktr.ee/kamilah27">-->
-<!--        <img src="@/assets/contact/l.svg" width="25" height="25"/>-->
-<!--      </a>-->
-<!--    </div>-->
     <div style="float: right; margin-right: 690px">
       <a href="https://github.com/Kam1st">
         <img src="@/assets/contact/g.png" width="25" height="25"/>
@@ -38,22 +23,16 @@
   </nav>
 
   <MqResponsive target="xs">
-    <!--      <div>This is an XS Screen</div>-->
   </MqResponsive>
   <MqResponsive target="sm">
-    <!--      <div>This is an SM Screen</div>-->
   </MqResponsive>
   <MqResponsive target="md">
-    <!--      <div>This is an MD Screen</div>-->
   </MqResponsive>
   <MqResponsive target="lg">
-    <!--      <div>This is an LG Screen</div>-->
   </MqResponsive>
   <MqResponsive target="xl">
-    <!--      <div>This is an XL Screen</div>-->
   </MqResponsive>
   <MqResponsive target="xxl">
-    <!--      <div>This is an XXL Screen</div>-->
   </MqResponsive>
   <router-view/>
 
@@ -66,26 +45,26 @@
 <script>
 export default {
   name: 'App',
-  methods: {
-    redirectHomePage(){
-      this.$router.push(`/`);
-    },
-    redirectSkillsPage(){
-      this.$router.push(`/skills`);
-    },
-    redirectEducationPage(){
-      this.$router.push(`/education`);
-    },
-    redirectProjectsPage(){
-      this.$router.push(`/projects`);
-    },
-    redirectContactPage(){
-      this.$router.push(`/contact`);
-    },
-    redirectExtraPage(){
-      this.$router.push(`/extracurriculars`);
-    },
-  }
+  // methods: {
+  //   redirectHomePage(){
+  //     this.$router.push(`/`);
+  //   },
+  //   redirectSkillsPage(){
+  //     this.$router.push(`/skills`);
+  //   },
+  //   redirectEducationPage(){
+  //     this.$router.push(`/education`);
+  //   },
+  //   redirectProjectsPage(){
+  //     this.$router.push(`/projects`);
+  //   },
+  //   redirectContactPage(){
+  //     this.$router.push(`/contact`);
+  //   },
+  //   redirectExtraPage(){
+  //     this.$router.push(`/extracurriculars`);
+  //   },
+  // }
 }
 </script>
 
