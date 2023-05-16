@@ -179,9 +179,33 @@
 
     </div>
     </div>
-
-
     <div>
+      <aos-vue animation="fade">
+        <br>
+        <br>
+        <h1 style="text-decoration: underline;">Clubs and Student Life</h1>
+        <br>
+        <img src="@/assets/cw.png" width="300" height="300">
+        <h3> MSA </h3>
+        <p style="font-size: 20px">
+          I was the Vice-President of Champlain's College very own MSA for 2 years. We helped raise funds for different organizations. <br>
+          It gave me the experience of being a leader amongst other students but also work hand in hand with my peers to create
+          a safe environment and welcoming to everyone.
+        </p>
+        <br>
+        <br>
+        <img src="@/assets/lead.png" width="400" height="250">
+        <h3> FLIP and volunteering</h3>
+        <p style="font-size: 20px">
+          I was also part of FLIP which is the leadership association at Champlain College to help integrate
+          First-Year Students better and organize activities for all student at the college. <br>
+          I also often voluteered for the college itself such as being a guid on the Open Houses at every start of
+          the semester.
+        </p>
+      </aos-vue>
+    </div>
+
+    <div style="background-color: black;">
       <aos-vue animation="fade">
         <br>
         <br>
@@ -207,6 +231,7 @@
           Helped in organizing events that took place in the CHSLD. <br><br>
           Sadly the place closed down in 2022.... Forever in my heart
         </p>
+        <br>
       </aos-vue>
     </div>
 
