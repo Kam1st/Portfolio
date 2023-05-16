@@ -6,7 +6,7 @@
     <h1>Kamilah Hatteea</h1>
     <br>
     <aos-vue animation="fade">
-    <img src="@/assets/Kam.jpg" width="300" height="400" style  ="border: 5px solid #d4af37;"/>
+    <img src="@/assets/Kam.jpg" width="300" height="400" style="border: 5px solid #d4af37;"/>
     </aos-vue>
     <br>
     <br>
@@ -96,7 +96,7 @@
       <br>
         <div class="row1">
           <div class="column">
-          <img src="@/assets/edu/champ.jpg" width="650" height="350" style="border-radius: 1%; margin-left: 50px"/>
+          <img src="@/assets/edu/champ.jpg" width="650" height="350" style="border-radius: 1%; margin-left: 50px; box-shadow: 2px 2px 2px #d4af37"/>
           <h3>(2020-2023)</h3>
           </div>
 
@@ -120,7 +120,7 @@
       <div class="row1">
         <br>
       <div clas="column" style="flex: 5%;">
-        <img src="@/assets/projects/um.png" width="600" height="450" style="border-radius: 1%;"/>
+        <img src="@/assets/projects/um.png" width="600" height="450" style="border-radius: 1%; box-shadow: 2px 2px 2px #d4af37"/>
         <h3>(2023)</h3>
       </div>
       <div class="column" style="flex: 5%;">
@@ -158,7 +158,7 @@
         <div class="row1">
 
         <div class="column" style="flex: 5%;">
-        <img src="@/assets/projects/game_level1.png" width="650" height="400" style="border-radius: 1%;"/>
+        <img src="@/assets/projects/game_level1.png" width="650" height="400" style="border-radius: 1%; box-shadow: 2px 2px 2px #d4af37"/>
           <h3>(2022)</h3>
         </div>
 
