@@ -18,7 +18,7 @@
         <h1 style="text-decoration: underline;">About me</h1>
         <br>
       <p style="font-size: 20px"> Hello:) I’m Kamilah (but everyone calls me Kam).
-        I’m a third year Computer Science and Technology student.<br>
+        I’m a third year Computer Science and Technology student, hoping to become a software engineer in the near future.<br>
         <br>People say I talk a lot and just have a high energy overall so never hesitate to contact me:)
         <br> You can always reach me by email or on social media, just click on the links at the top:)
         <br>
