@@ -15,13 +15,15 @@
       <aos-vue animation="fade">
       <br>
       <br>
-      <p style="font-size: 20px"> Hello! My name is Kamilah (but you can call me Kam).
+        <h1>About me</h1>
+        <br>
+      <p style="font-size: 20px"> Hello:) I’m Kamilah (but everyone calls me Kam).
+        I’m a third year Computer Science and Technology student.<br>
+        <br>People say I talk a lot and just have a high energy overall so never hesitate to contact me:)
+        <br> You can always reach me by email or on social media, just click on the links at the top:)
         <br>
         <br> On this portfolio you will see who I am as a person, my projects and skills, and much more.
-        <br>
         <br> So don't be shy to check out every aspect of it.
-        <br>
-        <br> You can always reach me by email or on social media, just click on the links at the top:)
         <br>
         <br>Welcome to my life!
       </p>
