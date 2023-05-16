@@ -15,7 +15,7 @@
       <aos-vue animation="fade">
       <br>
       <br>
-        <h1 style="text-decoration: underline;">About me</h1>
+        <h1>About me</h1>
         <br>
       <p style="font-size: 20px"> Hello:) I’m Kamilah (but everyone calls me Kam).
         I’m a third year Computer Science and Technology student, hoping to become a software engineer in the near future.<br>
@@ -34,7 +34,7 @@
     <br>
     <br>
     <div class="row">
-      <h1 style="text-decoration: underline;">Skills</h1>
+      <h1>Skills</h1>
       <aos-vue animation="fade">
         <div class="column">
           <img src="@/assets/skills/agile.png" width="100" height="100" style="padding-right: 130px">
@@ -89,7 +89,7 @@
 
     <div style="background-color: black">
       <br>
-  <h1 style="text-decoration: underline;">Education And Projects</h1>
+  <h1>Education And Projects</h1>
   <br>
     <aos-vue animation="fade" data-aos-duration="600">
       <h2>Champlain College Saint-Lambert</h2>
@@ -181,7 +181,7 @@
         <aos-vue animation="fade">
           <br>
           <br>
-          <h1 style="text-decoration: underline;">Work Experience</h1>
+          <h1>Work Experience</h1>
           <br>
           <img src="@/assets/nexone.png" width="350" height="150">
           <h3>NexOne - Intern as a Junior Full-Stack Developer (February - May 2023) </h3>
@@ -213,7 +213,7 @@
       <aos-vue animation="fade">
         <br>
         <br>
-        <h1 style="text-decoration: underline;">Clubs and Student Life</h1>
+        <h1>Clubs and Student Life</h1>
         <br>
         <img src="@/assets/cw.png" width="300" height="300" style="box-shadow: 2px 2px 2px #d4af37">
         <h3> MSA </h3>
@@ -264,6 +264,10 @@ export default {
 
 img {
   box-shadow: 1px 1px 1px white, 1px 1px 1px white;
+}
+
+h1 {
+  font-weight: normal;
 }
 
 </style>
