@@ -15,7 +15,7 @@
       <aos-vue animation="fade">
       <br>
       <br>
-        <h1>About me</h1>
+        <h1 style="text-decoration: underline;">About me</h1>
         <br>
       <p style="font-size: 20px"> Hello:) I’m Kamilah (but everyone calls me Kam).
         I’m a third year Computer Science and Technology student.<br>
@@ -34,7 +34,7 @@
     <br>
     <br>
     <div class="row">
-      <h1>Skills</h1>
+      <h1 style="text-decoration: underline;">Skills</h1>
       <aos-vue animation="fade">
         <div class="column">
           <img src="@/assets/skills/agile.png" width="100" height="100" style="padding-right: 130px">
@@ -89,8 +89,8 @@
 
     <div style="background-color: black">
       <br>
-<h1>Education And Projects</h1>
-<br>
+  <h1 style="text-decoration: underline;">Education And Projects</h1>
+  <br>
     <aos-vue animation="fade" data-aos-duration="600">
       <h2>Champlain College Saint-Lambert</h2>
       <br>
@@ -124,6 +124,7 @@
         <h3>(2023)</h3>
       </div>
       <div class="column" style="flex: 5%;">
+        <br><br><br>
         <div style="margin-right: 150px; margin-left: 100px; border-radius: 3%; margin-top: 0px">
           <p>  Universal Marketing Co. Ltd (UMCL) is a wholesale supplier for plumbing equipment to  retail  businesses  and  professionals.
             Currently,  the  company  uses  an  external Business Management service to store and retrieve data for all transactions,
